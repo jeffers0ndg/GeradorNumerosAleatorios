@@ -12,14 +12,17 @@
 <body>
     <div class="container">
         <div class="box">
-            <label id="visor">0</label>
-
-            <label for="valorMax">Mín</label>
-            <input type="number" id="valorMin" value="1" autofocus>
-            <label for="valorMax">Máx</label>
-            <input type="number" id="valorMax" value="10">
-
-
+            <div class="boxlinhas">
+                <div class="boxvisor">
+                    <label id="visor">0</label>
+                </div>
+                <div class="boxinputs">
+                    <label for="valorMax">Mín</label>
+                    <input type="number" id="valorMin" value="1">
+                    <label for="valorMax">Máx</label>
+                    <input type="number" id="valorMax" value="10">
+                </div>
+            </div>
             <input type="button" class="bnt" value="gerar" onclick="gerarValor()">
         </div>
     </div>

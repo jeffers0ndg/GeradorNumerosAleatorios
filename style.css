@@ -11,6 +11,27 @@
     align-items: center;
     justify-content: center;
 }
+
+.boxinputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+}
+.boxvisor{
+    margin: 16px;
+}
+
+.boxlinhas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    
+}
 .box{
     display: flex;
     flex-direction: column;
@@ -19,6 +40,9 @@
     border: 2px solid #dfe1e5;
     border-radius: 8px;
     border-bottom: none;
+    /*
+    
+    */
 }
 
 #visor{
@@ -27,6 +51,7 @@
 }
 
 .box, label{
+    
     color: #aaa;
 }
 #valorMin, #valorMax{
